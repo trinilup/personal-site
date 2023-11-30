@@ -1,2 +1,2 @@
-# personal-site
+# Trinilup - Sitio Personal
 Este es el github de mi sitio personal, donde se encuentran mis enlaces a portafolio y proyectos
