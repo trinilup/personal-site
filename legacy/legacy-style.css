@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --back-color: #000000;
+    --text-color: #D4D4D4;
+    --line-color: #212121;
+    --card-color: #131313;
+    --button-color: #0C0C0C;
+    --brand-color: #C26900;
+}
+
+/* ESTE ES UN ARCHIVO DEL LEGADO CON ESTILOS ANTERIORES APLICADOS - ATTE TRINILUP */
+
+.light-root {
+    --back-color: #F6F6F7;
+    --text-color: #050505;
+    --line-color: #EDEDED;
+    --card-color: #F1F1F3;
+    --button-color: #ECECEF;
+    --brand-color: #DB7600;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Space Mono', monospace;
+    font-feature-settings: 'ss05' on, 'ss01' on, 'liga' off;
+    font-size: 12pt;
+    color: var(--title-color);
+}
+
+body {
+    background-color: var(--back-color);
+}
+
+/* DIV STYLE */
+
+header {
+    display: flex;
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 64px 40px 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+header div {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+header div p {
+    width: 370px;
+    text-align: right;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+}
+
+.cont-h1 {
+    margin: 0 auto;
+    max-width: 1232px;
+    padding: 60px 40px 4px;
+}
+
+.home-mobile {
+    display: none;
+}
+
+.cont-1152 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1232px;
+    padding: 60px 40px;
+}
+
+div.hr {
+    height: 1px;
+    width: 100%;
+    background-color: var(--line-color);
+}
+
+div.hr24 {
+    height: 1px;
+    width: 100%;
+    background-color: var(--line-color);
+    margin-bottom: 24px;
+}
+
+.title-link {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.bio-link {
+    padding: 16px 0;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.padding16 {
+    padding: 16px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 60px 40px 0;
+}
+
+.special-footer {
+    max-width: 466px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    row-gap: 16px;
+}
+
+.footer-tx12 {
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+/* IMG STYLE */
+
+header img {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.ico-img {
+    padding-top: 3px;
+}
+
+.arrow-up {
+    position: absolute;
+    right: 0;
+    display: none;
+    opacity: 0.9;
+}
+
+/* FONT STYLE */
+
+.h1-title-home {
+    font-size: 1.25rem;
+    font-weight: 400;
+    max-width: 662px;
+}
+
+.tx16 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    display: inline;
+}
+
+.tx16-title {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.tx14 {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.tx12 {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.title-color {
+    color: var(--text-color);
+}
+
+.text-color {
+    color: var(--text-color);
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    display: inherit;
+}
+
+footer div ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+footer .footer-tx12 p {
+    text-align: center;
+}
+
+/* ANIMATION */
+
+.bio-link:hover {
+    background-color: var(--card-color);
+}
+
+.bio-link:hover .arrow-up {
+    display: inherit;
+}
+
+header img:hover {
+    opacity: 1;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 720px) {
+    header {
+        padding: 60px 20px;
+    }
+
+    header p {
+        display: none;
+    }
+
+    header img {
+        opacity: 1;
+    }
+
+    .cont-h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .home-mobile {
+        display: inherit;
+    }
+    
+    .cont-1152 {
+        padding: 60px 20px;
+    }
+
+    .arrow-up {
+        display: inherit;
+        opacity: 0.7;
+    }
+
+    .bio-link p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .cont-1152 {
+        padding: 60px 16px;
+    }
+
+    .cont-h1 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    header {
+        padding: 60px 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .bio-link {
+        flex-wrap: wrap;
+    }
+
+    .ico-img {
+        display: none;
+    }
+}
