@@ -320,6 +320,11 @@ footer p {
         grid-column-start: 1;
         grid-column-end: 13;
     }
+
+    .grid-text {
+        padding-top: 4px;
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 510px) {
