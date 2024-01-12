@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trinilup - Simplemente Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header class="flex-row space-between container-base pad-top-60 pad-bot-60">
@@ -23,25 +23,70 @@
     <section class="container-base pad-top-60 pad-bot-60">
         <div class="hr"></div>
         <div class="pad-top-20 pad-bot-20 flex-row flex-wrap gap-8 space-between">
-            <a class="back flex-row gap-12" href="../index.html"><img src="../img/arrow-left-line.svg" alt="Ir a inicio"><p class="text-16 white-color">Regresar</p></a><p class="text-16 gray-color">Lugar en donde estas</p>
+            <a class="back flex-row gap-12" href="../index.html"><img src="../img/arrow-left-line.svg" alt="Ir a inicio"><p class="text-16 white-color">Regresar</p></a><p class="text-16 gray-color">Estas leyendo "Simplemente Bootstrap"</p>
         </div>
         <div class="hr"></div>
     </section>
     <section class="container-base grid-text pad-top-60 pad-bot-60">
-        <h2 class="white-color h2">Lorem ipsum dolor sit</h2>
-        <p class="gray-color pad-bot-8 lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus proin nibh nisl condimentum id venenatis. Mi ipsum faucibus vitae aliquet. Faucibus pulvinar elementum integer enim neque volutpat ac. Vestibulum lectus mauris ultrices eros. Eu sem integer vitae justo eget magna fermentum. Non consectetur a erat nam at lectus. Quis imperdiet massa tincidunt nunc pulvinar. Gravida rutrum quisque non tellus orci ac. Mauris a diam maecenas sed enim.</p>
-        <div class="flex-column center-center">
+        <h2 class="white-color h2">Las desventajas de usar Bootstrap para crear sitios web</h2>
+        <p class="gray-color pad-bot-8 lead">Bootstrap es un framework de diseño web de código abierto y gratuito que proporciona una amplia gama de componentes y herramientas para facilitar el desarrollo de sitios web responsive. Sin embargo, a pesar de sus muchas ventajas, también tiene algunas desventajas que deben tenerse en cuenta antes de utilizarlo.
+
+        Una de las principales desventajas de Bootstrap es que puede ser demasiado pesado. El framework incluye una gran cantidad de código que puede ralentizar el rendimiento de los sitios web, especialmente si solo se utilizan algunos de sus componentes.
+            
+        Otra desventaja de Bootstrap es que puede ser difícil de personalizar. El framework tiene un estilo predeterminado que puede ser difícil de cambiar sin afectar a la funcionalidad de los componentes.
+            
+        Además, Bootstrap puede restringir la creatividad de los desarrolladores. El framework proporciona una gran cantidad de componentes prefabricados que pueden ser útiles para crear sitios web rápidamente, pero también pueden limitar la capacidad de los desarrolladores para crear diseños únicos.</p>
+
+
+        <!-- <div class="flex-column center-center">
             <img src="../img/imgtemplate.png" alt="">
             <p class="text-14 gray-color pad-bot-8 pad-top-8">Dato de la imagen o nombre o descripción</p>
-        </div>
-        <p class="gray-color pad-top-8 lead">Morbi quis commodo odio aenean sed adipiscing diam donec. Felis imperdiet proin fermentum leo vel orci porta. Consectetur libero id faucibus nisl tincidunt eget nullam. Dictum sit amet justo donec. Quis varius quam quisque id diam vel. Accumsan sit amet nulla facilisi. Eu sem integer vitae justo eget magna. Dui nunc mattis enim ut tellus elementum sagittis vitae. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Dignissim enim sit amet venenatis urna cursus eget nunc scelerisque. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Vitae proin sagittis nisl rhoncus mattis rhoncus. Tellus id interdum velit laoreet id donec ultrices. Turpis egestas integer eget aliquet nibh praesent. Nunc faucibus a pellentesque sit amet porttitor eget dolor. Sem et tortor consequat id porta nibh venenatis cras sed.</p>
-        <h2 class="white-color pad-top-8 h2">Ut sem viverra aliquet</h2>
-        <p class="gray-color lead">Ut sem viverra aliquet eget sit. Sed nisi lacus sed viverra tellus in. Amet volutpat consequat mauris nunc congue nisi vitae suscipit. Vitae justo eget magna fermentum iaculis eu non diam phasellus. Nulla malesuada pellentesque elit eget gravida cum. Ullamcorper sit amet risus nullam. Id eu nisl nunc mi ipsum. Neque vitae tempus quam pellentesque. Facilisis magna etiam tempor orci. Leo duis ut diam quam. In hendrerit gravida rutrum quisque. Nec sagittis aliquam malesuada bibendum arcu vitae. Erat velit scelerisque in dictum non consectetur a erat nam. Non consectetur a erat nam at lectus urna. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit.</p>
+        </div> -->
+        <h2 class="white-color pad-top-8 h2">Peso</h2>
+        <p class="gray-color pad-top-8 lead">Bootstrap incluye una gran cantidad de código que puede ralentizar el rendimiento de los sitios web. Esto se debe a que el framework incluye componentes para una amplia gama de dispositivos y pantallas, así como funciones adicionales que pueden no ser necesarias para todos los proyectos.
+
+        Según un estudio realizado por Google, los sitios web que utilizan Bootstrap suelen ser un 20% más pesados que los que no lo utilizan. Esto puede tener un impacto negativo en el rendimiento de los sitios web, especialmente en dispositivos móviles con conexiones lentas.
+            
+        Para reducir el peso de los sitios web que utilizan Bootstrap, se pueden tomar una serie de medidas, como:
+            
+        Utilizar solo los componentes necesarios. Bootstrap proporciona una amplia gama de componentes, pero no todos son necesarios para todos los proyectos. Es importante seleccionar solo los componentes que se utilizarán en el sitio web.
+        Eliminar las funciones adicionales. Bootstrap incluye una serie de funciones adicionales que pueden no ser necesarias para todos los proyectos. Es importante eliminar estas funciones para reducir el peso del sitio web.
+        Optimizar el código. El código de Bootstrap puede ser optimizado para mejorar su rendimiento. Existen una serie de herramientas y técnicas que pueden utilizarse para optimizar el código de Bootstrap.</p>
+        
+        <!-- CARD DE BOOTSTRAP -->
+        <div class="card" style="width: 18rem;">
+            <img src="../img/images.jpeg" class="card-img-top" alt="Imagen que hace aluciòn sobre como los niños pierden su creatividad al pasar por el sistema educativo.">
+            <div class="card-body">
+              <p class="card-text">Pequeña representación gráfica  de lo que se siente crear un sitio web utilizando Bootstrap.</p>
+            </div>
+          </div>
+          <!-- ---------- -->
+
+        <h2 class="white-color pad-top-8 h2">Personalización</h2>
+        <p class="gray-color lead">Bootstrap tiene un estilo predeterminado que puede ser difícil de cambiar sin afectar a la funcionalidad de los componentes. Esto puede ser una desventaja para los desarrolladores que desean crear diseños únicos para sus sitios web.
+
+        Para personalizar Bootstrap, se pueden utilizar una serie de métodos, como:
+            
+        Sobrescribir los estilos predeterminados. Se puede sobrescribir los estilos predeterminados de Bootstrap utilizando las clases de estilo propias del sitio web.
+        Utilizar componentes personalizados. Se pueden crear componentes personalizados para reemplazar los componentes predeterminados de Bootstrap.
+        Utilizar un framework de diseño alternativo. Si la personalización es una prioridad, puede ser preferible utilizar un framework de diseño alternativo que ofrezca más flexibilidad.</p>
+
+            <!-- CARD DE BOOTSTRAP -->
+        <div class="card" style="width: 18rem;">
+            <img src="../img/pesado-card.jpeg" class="card-img-top" alt="Luchadores de sumo con una clara diferencia de tamaños">
+            <div class="card-body">
+              <p class="card-text">Mi humilde sitio web cuando está construido solo con Bootstrap.</p>
+            </div>
+          </div>
+          <!-- ------- -->
+
+        <h2 class="white-color pad-top-8 h2">Conclusión</h2>
+        <p class="gray-color lead">No me agrada Bootstrap pero comprendo que a algunos les pueda servir para simplificar su vida.</p>
     </section>
     <section class="container-base pad-top-60 pad-bot-60">
         <div class="hr"></div>
         <div class="pad-top-20 pad-bot-20 flex-row flex-wrap gap-8 space-between">
-            <a class="back flex-row gap-12" href="../index.html"><img src="../img/arrow-left-line.svg" alt=""><p class="text-16 white-color">Regresar</p></a><p class="text-16 gray-color">Lugar en donde estas</p>
+            <a class="back flex-row gap-12" href="../index.html"><img src="../img/arrow-left-line.svg" alt=""><p class="text-16 white-color">Regresar</p></a><p class="text-16 gray-color">Estas leyendo "Simplemente Bootstrap"</p>
         </div>
         <div class="hr"></div>
     </section>

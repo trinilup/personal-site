@@ -70,6 +70,10 @@ body {
   grid-column-start: 2;
   grid-column-end: 10; }
 
+.grid-text h3 {
+  grid-column-start: 3;
+  grid-column-end: 11; }
+
 .grid-text p {
   grid-column-start: 3;
   grid-column-end: 11; }
@@ -146,6 +150,10 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
+  font-weight: 700; }
+
+h2 {
+  font-size: 1.125rem;
   font-weight: 700; }
 
 /* BASE STYLE */

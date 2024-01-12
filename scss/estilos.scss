@@ -89,6 +89,11 @@ body {
     grid-column-end: 10;
   }
 
+  h3 {
+    grid-column-start: 3;
+    grid-column-end: 11;
+  }
+
   p {
     grid-column-start: 3;
     grid-column-end: 11;
@@ -191,6 +196,11 @@ h1 {
 
 h2 {
   font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
