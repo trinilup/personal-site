@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --back-color:#000000;
+  --text-color:#D4D4D4;
+  --line-color:#212121;
+  --card-color:#131313;
+  --button-color:#0C0C0C;
+  --brand-color:#C26900;
+}
+
+.light-root {
+  --back-color:#F6F6F7;
+  --text-color:#050505;
+  --line-color:#EDEDED;
+  --card-color:#F1F1F3;
+  --button-color:#ECECEF;
+  --brand-color:#DB7600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Space Mono', monospace;
+  font-feature-settings: 'ss05' on, 'ss01' on, 'liga' off;
+  font-size: 12pt;
+  color: var(--title-color);
+}
+
+body {
+  background-color: var(--back-color);
+}

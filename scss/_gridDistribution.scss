@@ -1,0 +1,19 @@
+.grid-text h2 {
+    grid-column-start: 2;
+    grid-column-end: 10;
+  }
+  .grid-text h3 {
+    grid-column-start: 3;
+    grid-column-end: 11;
+  }
+  .grid-text p {
+    grid-column-start: 3;
+    grid-column-end: 11;
+  }
+  .grid-text div {
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+  .grid-text div img {
+    width: 100%;
+  }

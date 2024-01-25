@@ -65,7 +65,6 @@ body {
   justify-content: center;
   align-items: center; }
 
-/* GRID DISTRIBUTION */
 .grid-text h2 {
   grid-column-start: 2;
   grid-column-end: 10; }
@@ -81,17 +80,16 @@ body {
 .grid-text div {
   grid-column-start: 2;
   grid-column-end: 12; }
-  .grid-text div img {
-    width: 100%; }
 
-/* CONTAINER */
+.grid-text div img {
+  width: 100%; }
+
 .container-base {
   max-width: 1232px;
   padding-right: 40px;
   padding-left: 40px;
   margin: 0 auto; }
 
-/* PADDINGS */
 .pad-top-8 {
   padding-top: 8px; }
 
@@ -122,7 +120,6 @@ body {
 .pad-bot-60 {
   padding-bottom: 60px; }
 
-/* COLOR STYLE */
 .white-color {
   color: var(--text-color); }
 
@@ -130,7 +127,6 @@ body {
   color: var(--text-color);
   opacity: 0.6; }
 
-/* TEXT STYLE */
 .text-16 {
   font-size: 1rem;
   font-weight: 400;
@@ -156,7 +152,11 @@ h2 {
   font-size: 1.125rem;
   font-weight: 700; }
 
-/* BASE STYLE */
+h4 {
+  color: cornflowerblue;
+  font-size: 2rem;
+  text-transform: uppercase; }
+
 a {
   text-decoration: none;
   display: inherit; }
@@ -166,15 +166,15 @@ a {
   width: 100%;
   background-color: var(--line-color); }
 
-/*------ UNIQUE STYLE ------*/
 .space {
   visibility: hidden; }
 
 header img {
   opacity: 0.7;
   transition: 0.3s; }
-  header img:hover {
-    opacity: 1; }
+
+header img:hover {
+  opacity: 1; }
 
 header p {
   max-width: 370px;
@@ -182,13 +182,6 @@ header p {
   font-size: 0.875rem;
   line-height: 1.125rem; }
 
-/* .hero-mobile {
-    display: none;
-} */
-/* .hero-mobile h1 {
-    font-size: 1.25rem;
-    font-weight: 400;
-} */
 .arrow-up {
   position: absolute;
   right: 0;
@@ -197,20 +190,21 @@ header p {
 
 .back {
   opacity: 0.6; }
-  .back:hover {
-    opacity: 1; }
+
+.back:hover {
+  opacity: 1; }
 
 .bio-link:hover {
   background-color: var(--card-color); }
-  .bio-link:hover .arrow-up {
-    display: inherit; }
+
+.bio-link:hover .arrow-up {
+  display: inherit; }
 
 footer p {
   font-size: 0.75rem;
   line-height: 1.125rem;
   text-align: center; }
 
-/*------ MEDIA QUERY ------*/
 @media screen and (max-width: 1024px) {
   .grid-text h2 {
     grid-column-start: 1;
@@ -226,9 +220,6 @@ footer p {
   .container-base {
     padding-left: 24px;
     padding-right: 24px; }
-  /* header img {
-      opacity: 0.7;
-  } */
   header p {
     display: none; }
   .hero-mobile {
@@ -243,9 +234,9 @@ footer p {
   .grid-text {
     padding-top: 4px;
     padding-bottom: 0px; }
-    .grid-text p {
-      grid-column-start: 1;
-      grid-column-end: 13; } }
+  .grid-text p {
+    grid-column-start: 1;
+    grid-column-end: 13; } }
 
 @media screen and (max-width: 510px) {
   .container-base {
@@ -255,3 +246,5 @@ footer p {
 @media screen and (max-width: 320px) {
   .bio-link .ico-img {
     display: none; } }
+
+/*------ MIXIN ------*/

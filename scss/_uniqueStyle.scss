@@ -1,0 +1,39 @@
+.space {
+    visibility: hidden;
+  }
+  header img {
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+  header img:hover {
+    opacity: 1;
+  }
+  header p {
+    max-width: 370px;
+    text-align: right;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+  .arrow-up {
+    position: absolute;
+    right: 0;
+    display: none;
+    opacity: 0.9;
+  }
+  .back {
+    opacity: 0.6;
+  }
+  .back:hover {
+    opacity: 1;
+  }
+  .bio-link:hover {
+    background-color: var(--card-color);
+  }
+  .bio-link:hover .arrow-up {
+    display: inherit;
+  }
+  footer p {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    text-align: center;
+  }
